@@ -1,13 +1,13 @@
 ## drag_drop
 
-To start application write in your command line:
+### To start application write in your command line:
 ```
 node ./bin/www
-``
+```
 
-Run webpack:
+### Run webpack:
 ```
 webpack -w --progress
-````
+```
 
-And open in browser http://localhost:3000/
+### And open in browser http://localhost:3000/

@@ -34,13 +34,8 @@ module.exports = {
     resolve: {
         modules: [
             path.resolve(PROJECT_DEPS, 'node_modules'),
+            path.resolve(PROJECT_DEPS, APP_ROOT),
         ],
         extensions: ['.js', '.jsx'],
-        alias: {
-            // app folders
-            header: path.resolve(APP_ROOT, 'header'),
-            footer: path.resolve(APP_ROOT, 'footer'),
-            layout: path.resolve(APP_ROOT, 'layout'),
-        },
     },
 };

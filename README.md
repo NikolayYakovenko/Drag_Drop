@@ -1,4 +1,4 @@
-## drag_drop
+## First simple React app
 
 ### To start application write in your command line:
 ```

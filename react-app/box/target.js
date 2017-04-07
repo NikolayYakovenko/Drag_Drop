@@ -23,6 +23,7 @@ class Target extends Component {
             <div style={{
                 position: 'relative',
                 border: '2px solid #d0d4dc',
+                padding: '15px',
                 width: '350px',
                 height: '350px',
                 marginTop: '15px',

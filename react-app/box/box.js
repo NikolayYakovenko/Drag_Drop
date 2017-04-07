@@ -44,10 +44,11 @@ class Box extends Component {
         return connectDragSource(
             <div style={{
                 border: '1px solid grey',
-                lineHeight: '100px',
-                textAlign: 'center',
                 width: '100px',
                 height: '100px',
+                margin: '0 15px 15px 0',
+                lineHeight: '100px',
+                textAlign: 'center',
                 background: isDragging ? 'grey' : 'lime',
             }}>
                 {name}

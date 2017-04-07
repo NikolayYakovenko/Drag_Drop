@@ -3,6 +3,8 @@ import React from 'react';
 import { Header } from 'header';
 import { Footer } from 'footer';
 
+import Container from 'box/container';
+
 export const Layout = () => {
     return (
         <div>
@@ -21,12 +23,7 @@ export const Layout = () => {
                     </ul>
                 </div>
                 <div className="main-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut, dolor debitis cum atque tenetur numquam nisi sapiente ipsum quo perferendis reprehenderit eaque iusto eius excepturi. Modi enim at esse.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, est iusto ipsum architecto magni temporibus aliquid veniam a fuga harum, facilis delectus nisi quaerat unde, nesciunt, provident inventore! Officia, quae.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut, dolor debitis cum atque tenetur numquam nisi sapiente ipsum quo perferendis reprehenderit eaque iusto eius excepturi. Modi enim at esse.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, est iusto ipsum architecto magni temporibus aliquid veniam a fuga harum, facilis delectus nisi quaerat unde, nesciunt, provident inventore! Officia, quae.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut, dolor debitis cum atque tenetur numquam nisi sapiente ipsum quo perferendis reprehenderit eaque iusto eius excepturi. Modi enim at esse.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, est iusto ipsum architecto magni temporibus aliquid veniam a fuga harum, facilis delectus nisi quaerat unde, nesciunt, provident inventore! Officia, quae.
+                    <Container />
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut, dolor debitis cum atque tenetur numquam nisi sapiente ipsum quo perferendis reprehenderit eaque iusto eius excepturi. Modi enim at esse.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, est iusto ipsum architecto magni temporibus aliquid veniam a fuga harum, facilis delectus nisi quaerat unde, nesciunt, provident inventore! Officia, quae.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut, dolor debitis cum atque tenetur numquam nisi sapiente ipsum quo perferendis reprehenderit eaque iusto eius excepturi. Modi enim at esse.
